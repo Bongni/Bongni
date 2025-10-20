@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hello there, I'm Sascha
 
 <!--
 **Bongni/Bongni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,19 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+🎓 I’m a student at ETH Zürich, specializing in Machine Learning and Systems Programming.
+
+### Interests
+
+🔬 I’m passionate about Large Language Models (LLMs), Reinforcement Learning, and Active Learning — exploring how intelligent systems can learn more efficiently.
+
+⚙️ I have also worked on Operating System design, low-level optimization, parallelization, and embedded systems.
+
+🛡️ In my freetime I like to study Cyber Security.
+
+### Experience
+
+💻 I primarily code in Python and C.
+
+🚀 Feel free to reach out or check out my projects below!
