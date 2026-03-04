@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 
 🔬 I’m passionate about Large Language Models (LLMs), Reinforcement Learning, and Active Learning — exploring how intelligent systems can learn more efficiently.
 
-⚙️ I have also worked on Operating System design, low-level optimization, parallelization, and embedded systems.
+⚙️ I have also worked on Operating System design, low-level optimization, parallelization, networking and embedded systems.
 
 🛡️ In my freetime I like to study Cyber Security.
 
