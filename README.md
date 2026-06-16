@@ -15,13 +15,13 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-🎓 I’m a student at ETH Zürich, specializing in Machine Learning, Systems Programming and Networking.
+🎓 I’m a student at ETH Zürich, specializing in Systems Programming, Machine Learning and Networking.
 
 ### Interests
 
-🔬 I’m passionate about Large Language Models (LLMs), Reinforcement Learning and Active Learning — exploring how intelligent systems can learn more efficiently.
+⚙️ I’m passionate about Operating System design, low-level optimization, parallelization, networking and embedded systems programming.
 
-⚙️ I have worked on Operating System design, low-level optimization, parallelization, networking and embedded systems.
+🔬 I have worked on Large Language Models (LLMs), Reinforcement Learning and Active Learning, where I explored how intelligent systems can learn more efficiently.
 
 🛡️ In my freetime I like to study Cyber Security by solving CTFs.
 
