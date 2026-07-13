@@ -1,4 +1,4 @@
-## Hello there, I'm Sascha
+# Hello there, I'm Sascha
 
 <!--
 **Bongni/Bongni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 🎓 I’m a student at ETH Zürich, specializing in Systems Programming, Machine Learning and Networking.
 
-### Interests
+## Interests
 
 ⚙️ I’m passionate about Operating System design, low-level optimization, parallelization, networking and embedded systems programming.
 
@@ -25,8 +25,25 @@ Here are some ideas to get you started:
 
 🛡️ In my freetime I like to study Cyber Security by solving CTFs.
 
-### Experience
+## Experience
 
-💻 I primarily code in Python and C/C++.
+<div style="display:flex; justify-content:space-between; align-items:center;">
+  <div>
+    💻 I primarily code in C/C++ and Python.
+  </div>
+  <div>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/>
+  </div>
+</div>
+
+## Projects
 
 🚀 Feel free to reach out or check out my projects below!
+
+<br>
+<p align="center">
+    <a href="https://bongni.github.io/Bongni">
+        <img src="assets/portfolio_button.svg" />
+    </a>
+</p>

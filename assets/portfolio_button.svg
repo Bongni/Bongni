@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="50">
+  <rect width="220" height="50" rx="10" fill="#161b22"/>
+  <text x="110" y="32" 
+        font-family="Arial" 
+        font-size="18"
+        text-anchor="middle"
+        fill="white">
+    🌐 Project Portfolio
+  </text>
+</svg>
