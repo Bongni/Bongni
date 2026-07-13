@@ -27,14 +27,12 @@ Here are some ideas to get you started:
 
 ## Experience
 
-<div style="display:flex; justify-content:space-between; align-items:center;">
-  <div>
-    💻 I primarily code in C/C++ and Python.
-  </div>
-  <div>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/>
-  </div>
+<div>
+  💻 I primarily code in C/C++ and Python.
+  <span>
+    <img align="right" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/>
+    <img align="right" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40"/>
+  </span>
 </div>
 
 ## Projects
