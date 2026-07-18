@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Name</title>
+    <title>Transformer-2D-Blackboard-Reasoning</title>
 
     <link rel="stylesheet" href="../style.css">
 </head>
@@ -11,58 +11,70 @@
 <body>
 
 <header class="hero">
+    
+    <h1>Transformer-2D-Blackboard-Reasoning</h1>
 
-    <h1>Project Name</h1>
-
-    <p class="subtitle">
-        Short description of the software project and its purpose
+    <p>
+        Train transformers to use a 2D blackboard for better reasoning capabilities
     </p>
 
 </header>
 
-<main>
-
-<img
-    src="../images/project1.jpg"
-    alt="Project screenshot"
-    style="
-        width:100%;
-        max-width:800px;
-        display:block;
-        margin:auto;
-        border-radius:10px;
-        margin-bottom:40px;
-    "
->
+<main class="project-page">
 
 <h2>Overview</h2>
 
 <p>
-Describe the problem this project solves,
-why you built it, and the main functionality.
+This project explores whether transformer models can learn structured reasoning
+through an explicit 2D blackboard representation. The goal is to investigate
+alternative approaches to reasoning in which intermediate states are stored and
+updated in a spatial workspace rather than being represented only as a
+sequential chain of tokens.
 </p>
 
-<br>
+<p>
+The project implements and evaluates transformer-based architectures that
+operate on a two-dimensional blackboard, allowing models to iteratively read
+from and write to structured representations. This setup provides a framework
+for studying how neural networks can perform multi-step reasoning and maintain
+intermediate information during problem solving.
+</p>
 
 <h2>Features</h2>
 
 <ul>
-    <li>Feature or capability 1</li>
-    <li>Feature or capability 2</li>
-    <li>Feature or capability 3</li>
+    <li>
+        Transformer architecture operating on a 2D blackboard representation
+    </li>
+    <li>
+        Iterative reasoning through structured intermediate states
+    </li>
+    <li>
+        Experiments on learning and evaluating spatial reasoning capabilities
+    </li>
 </ul>
 
 <br>
+
+<figure>
+    <img
+        src="../images/blackboard/blackboard.png"
+        alt="Project screenshot"
+        class="project-image"
+    >
+
+    <figcaption>
+        Visualization of two subsequent blackboard states.
+    </figcaption>
+</figure>
 
 <h2>Technologies</h2>
 
 <ul>
-    <li>Programming Language</li>
-    <li>Framework / Library</li>
-    <li>Database / Tools</li>
+    <li>Python</li>
+    <li>PyTorch</li>
+    <li>Transformer architectures</li>
 </ul>
-
-<br>
 
 <h2>Source Code</h2>
 
@@ -70,20 +82,44 @@ why you built it, and the main functionality.
 The complete source code is publicly available on GitHub:
 </p>
 
-<p>
-<a href="GITHUB_REPOSITORY_LINK" target="_blank">
-    View GitHub Repository →
-</a>
-</p>
+<a 
+    href="https://github.com/MaBaMar/transformer-2D-blackboard-reasoning" 
+    target="_blank"
+    rel="noopener noreferrer"
+    class="github-card-link"
+>
+    <div class="github-card">
+        <div class="github-icon">
+            <img src="../images/GitHub_Invertocat_Black.svg" alt="GitHub">
+        </div>
 
-<br>
+        <div class="github-info">
+            <h3>View source code</h3>
+            <p>
+                Explore the implementation, documentation, and experiments.
+            </p>
+        </div>
+
+        <div class="github-arrow">
+            →
+        </div>
+    </div>
+</a>
 
 <h2>Results</h2>
 
 <p>
-Describe the outcome of the project,
-technical challenges,
-and lessons learned.
+The project demonstrates a framework for investigating how transformers can
+perform reasoning using explicit, persistent intermediate representations.
+A central challenge was designing an architecture that can effectively update
+and utilize a structured workspace while preserving relevant information across
+multiple reasoning steps.
+</p>
+
+<p>
+The project provided practical insights into transformer-based reasoning,
+neural representations of structured information, and the challenges involved
+in building models capable of more interpretable multi-step computation.
 </p>
 
 <br>
@@ -95,7 +131,7 @@ and lessons learned.
 </main>
 
 <footer>
-    <p>© 2026 Your Name</p>
+    <p>© 2026 Sascha Bongni</p>
 </footer>
 
 </body>
