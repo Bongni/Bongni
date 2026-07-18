@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Name</title>
+    <title>MIR</title>
 
     <link rel="stylesheet" href="../style.css">
 </head>
@@ -15,71 +15,135 @@
     <h1>Project Name</h1>
 
     <p class="subtitle">
-        Course project developed as part of COURSE NAME
+        Building a Multi-path Intra-host Routing Tool
     </p>
 
 </header>
 
-<main>
-
-<img
-    src="../images/project1.jpg"
-    alt="Project screenshot"
-    style="
-        width:100%;
-        max-width:800px;
-        display:block;
-        margin:auto;
-        border-radius:10px;
-        margin-bottom:40px;
-    "
->
-
+<main class="project-page">
+    
 <h2>Overview</h2>
 
 <p>
-Describe the project objectives, course context,
-and what you were asked to implement or investigate.
+Existing machine learning (ML) cluster nodes often have multiple network interface cards (NICs)
+to increase inter-host bandwidth. However, they do not use them to their full potential because
+processes are usually statically bound to a single NIC. We propose MIR, a Multipath Intra-host 
+Routing tool that improves NIC utilization by exploiting idle NICs in the system. MIR can boost
+NIC utilization by up to $15\%$ across various traffic patterns for ML tasks. 
+It can be integrated without interfering with other applications.
 </p>
 
-<br>
+<figure>
+    <img
+        src="../images/mir/mir.png"
+        alt="Project screenshot"
+        class="project-image"
+    >
 
-<h2>Course Context</h2>
+    <figcaption>
+        Simple visualization of two possible paths.
+    </figcaption>
+</figure>
+
+<h2>Features</h2>
 
 <ul>
-    <li>Course: Course Name</li>
-    <li>Institution: University Name</li>
-    <li>Year: 2026</li>
+    <li>
+        Routing component that supports paths through both NICs
+    </li>
+    <li>
+        Sensing component that reads different telemetry data from intra-host components
+    </li>
+    <li>
+        CCA that uses the telemetry information to direct traffic onto optimal paths
+    </li>
 </ul>
 
 <br>
+
+<figure>
+    <img
+        src="../images/mir/MIR-simple.png"
+        alt="Project screenshot"
+        class="project-image"
+    >
+
+    <figcaption>
+        Simple visualization of the MIR components.
+    </figcaption>
+</figure>
+
+<br>
+
+<figure>
+    <img
+        src="../images/mir/MIR-Routing.png"
+        alt="Project screenshot"
+        class="project-image"
+    >
+
+    <figcaption>
+        More detailed visualization of the MIR routing component.
+    </figcaption>
+</figure>
 
 <h2>Technologies</h2>
 
 <ul>
-    <li>HTML / CSS</li>
-    <li>Python</li>
-    <li>Other Tools</li>
+    <li>C++</li>
+    <li>RDMA</li>
 </ul>
 
-<br>
-
-<h2>Learning Outcomes</h2>
+<h2>Source Code</h2>
 
 <p>
-Explain the skills developed through the project,
-technical concepts explored,
-and challenges overcome.
+The complete source code is publicly available on GitHub:
 </p>
 
-<br>
+<a 
+    href="https://github.com/Bongni/" 
+    target="_blank"
+    rel="noopener noreferrer"
+    class="github-card-link"
+>
+    <div class="github-card">
+        <div class="github-icon">
+            <img src="../images/GitHub_Invertocat_Black.svg" alt="GitHub">
+        </div>
+
+        <div class="github-info">
+            <h3>View source code</h3>
+            <p>
+                Explore the implementation, documentation, and experiments.
+            </p>
+        </div>
+
+        <div class="github-arrow">
+            →
+        </div>
+    </div>
+</a>
 
 <h2>Results</h2>
 
 <p>
-Describe the final outcome, evaluation,
-or demonstration of the project.
+This project demonstrates that it is possible to improve the NIC utilization by moving
+away from the current paradigm of static NIC bindings. The results suggest that dynamic
+NIC allocation is a promising improvement and could motivate future research into more
+sophisticated approaches.
 </p>
+
+<figure>
+    <img
+        src="../images/mir/results.png"
+        alt="Project screenshot"
+        class="project-image"
+    >
+
+    <figcaption>
+        Results of the evaluation (higher is better).
+    </figcaption>
+</figure>
 
 <br>
 
@@ -90,7 +154,7 @@ or demonstration of the project.
 </main>
 
 <footer>
-    <p>© 2026 Your Name</p>
+    <p>© 2026 Sascha Bongni</p>
 </footer>
 
 </body>
