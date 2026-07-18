@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Name</title>
+    <title>AI for Robotics</title>
 
     <link rel="stylesheet" href="../style.css">
 </head>
@@ -11,35 +11,28 @@
 <body>
 
 <header class="hero">
+    
+    <h1>AI for Robotics</h1>
 
-    <h1>Project Name</h1>
-
-    <p class="subtitle">
-        Short description of the software project and its purpose
+    <p>
+        Designing a lane-keeping algorithm for an autonomous car
     </p>
 
 </header>
 
-<main>
-
-<img
-    src="../images/project1.jpg"
-    alt="Project screenshot"
-    style="
-        width:100%;
-        max-width:800px;
-        display:block;
-        margin:auto;
-        border-radius:10px;
-        margin-bottom:40px;
-    "
->
+<main class="project-page">
 
 <h2>Overview</h2>
 
 <p>
-Describe the problem this project solves,
-why you built it, and the main functionality.
+This project explores learning-based control for autonomous vehicles by
+designing a lane-keeping system for a robotic car. The goal is to develop a
+robust driving policy that can keep the vehicle centered in its lane while
+adapting to different driving conditions.
+The implemented approach combines classical control methods with machine
+learning techniques: a PID controller provides stable baseline control, PCA is
+used to estimate the vehicle heading from sensor information, and reinforcement
+learning is incorporated to improve overall driving performance.
 </p>
 
 <br>
@@ -47,19 +40,37 @@ why you built it, and the main functionality.
 <h2>Features</h2>
 
 <ul>
-    <li>Feature or capability 1</li>
-    <li>Feature or capability 2</li>
-    <li>Feature or capability 3</li>
+    <li>
+        Autonomous lane-keeping using a PID-based control policy
+    </li>
+    <li>
+        PCA-based heading estimation for improved vehicle orientation tracking
+    </li>
+    <li>
+        Reinforcement learning augmentation to improve control performance
+    </li>
+    <li>
+        Simulation and evaluation framework for comparing different driving policies
+    </li>
 </ul>
+
+<br>
+
+<img
+    src="../images/ai4r/ai4r.png"
+    alt="Project screenshot"
+    class="project-image"
+>
 
 <br>
 
 <h2>Technologies</h2>
 
 <ul>
-    <li>Programming Language</li>
-    <li>Framework / Library</li>
-    <li>Database / Tools</li>
+    <li>Python</li>
+    <li>Jupyter Notebook</li>
+    <li>ROS 2 robotics framework</li>
+    <li>Reinforcement Learning and classical control methods</li>
 </ul>
 
 <br>
@@ -71,7 +82,7 @@ The complete source code is publicly available on GitHub:
 </p>
 
 <p>
-<a href="GITHUB_REPOSITORY_LINK" target="_blank">
+<a href="https://github.com/Bongni/AI-for-Robotics" target="_blank">
     View GitHub Repository →
 </a>
 </p>
@@ -81,10 +92,20 @@ The complete source code is publicly available on GitHub:
 <h2>Results</h2>
 
 <p>
-Describe the outcome of the project,
-technical challenges,
-and lessons learned.
+The project demonstrated how traditional control approaches can be combined
+with reinforcement learning to improve autonomous vehicle behavior. A key
+challenge was integrating stable control from PID methods with adaptive
+learning-based improvements while maintaining reliable lane tracking.
+The project provided practical experience in robotics software development,
+autonomous systems, and the integration of machine learning techniques for
+real-world control problems.
 </p>
+
+<br>
+
+<video controls="controls" name="Video of the car" class="project-video">
+    <source src="../images/ai4r/ai4r.mov">
+</video>
 
 <br>
 

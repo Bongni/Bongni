@@ -49,6 +49,22 @@ h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 25px;
+    align-items: stretch;
+}
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+}
+
+.project-link:hover {
+    text-decoration: none;
+}
+
+.project-link .project-card {
+    cursor: pointer;
 }
 
 .project-card {
@@ -57,6 +73,9 @@ h2 {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,.1);
     transition: transform .2s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover {
@@ -70,8 +89,16 @@ h2 {
     background: white;
 }
 
+footer {
+    margin-top: 60px;
+    text-align: center;
+    padding: 30px;
+    color: #777;
+}
+
 .project-content {
     padding: 20px;
+    flex-grow: 1;
 }
 
 .project-content h3 {
@@ -83,19 +110,51 @@ h2 {
     margin-bottom: 15px;
 }
 
-.project-content a {
-    text-decoration: none;
-    color: steelblue;
-    font-weight: bold;
+/* Per project page style */
+
+.project-page {
+    max-width: 850px;
+    margin: auto;
+    padding: 50px 20px;
+    font-size: 1.05rem;
 }
 
-.project-content a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    margin-top: 60px;
+.project-page > h1 {
     text-align: center;
-    padding: 30px;
-    color: #777;
+    margin-bottom: 10px;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    margin: 0 auto 40px auto;
+    border-radius: 12px;
+}
+
+.project-video {
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    margin: 0 auto 40px auto;
+    border-radius: 12px;
+}
+
+.project-page h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.project-page p {
+    margin-bottom: 20px;
+}
+
+.project-page ul {
+    margin: 0 0 25px 30px;
+}
+
+.project-page li {
+    margin-bottom: 8px;
 }
