@@ -12,86 +12,127 @@
 
 <header class="hero">
 
-    <h1>Project Name</h1>
+    <h1>Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs</h1>
 
     <p class="subtitle">
-        Short description of the research project and its contribution
+        Applying Active Learning to fine-tune LLMs
     </p>
 
 </header>
 
-<main>
-
-<img
-    src="../images/project1.jpg"
-    alt="Project visualization"
-    style="
-        width:100%;
-        max-width:800px;
-        display:block;
-        margin:auto;
-        border-radius:10px;
-        margin-bottom:40px;
-    "
->
+<main class="project-page">
 
 <h2>Overview</h2>
 
 <p>
-Describe the research problem, your role in the project,
-and the main objectives. Mention your contribution as a
-coauthor and the impact of the work.
+Large language models (LLMs) are typically trained once and then deployed
+without adapting to new information or user-specific data. This project
+investigates how LLMs can efficiently learn during inference by selectively
+fine-tuning themselves on informative examples encountered at test time.
 </p>
 
 <br>
+
+<figure>
+    <img
+        src="../images/ttft/ttft.svg"
+        alt="Project screenshot"
+        class="project-image"
+    >
+
+    <figcaption>
+        Visualization of Active Learning.
+    </figcaption>
+</figure>
 
 <h2>Research Contribution</h2>
 
 <p>
-Explain your specific contributions, such as methodology,
-experiments, data analysis, implementation, or writing.
+My contributions included developing components of the proposed
+active fine-tuning framework and conducting experiments to measure the
+performance.
 </p>
-
-<br>
 
 <h2>Publication</h2>
 
 <p>
-This work was published in:
+This work was published at ICLR 2025.
 </p>
 
 <ul>
     <li>
-        <strong>Paper Title</strong><br>
-        Authors: Your Name, Coauthor 1, Coauthor 2<br>
-        Conference / Journal Name, Year
+        <strong>Efficiently Learning at Test-Time: Active Fine-Tuning of LLMs</strong><br>
+        Authors: Jonas Hübotter, Sascha Bongni, Ido Hakimi, Andreas Krause<br>
+        ICLR, 2025
     </li>
 </ul>
 
-<p>
-<a href="PUBLICATION_LINK" target="_blank">
-    View Publication →
-</a>
-</p>
+<a 
+    href="https://arxiv.org/abs/2410.08020"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="resource-card-link"
+>
+    <div class="resource-card">
+        <div class="resource-icon">
+            📄
+        </div>
 
-<br>
+        <div class="resource-info">
+            <h3>View publication</h3>
+            <p>
+                Read the paper published at ICLR 2025.
+            </p>
+        </div>
+
+        <div class="resource-arrow">
+            →
+        </div>
+    </div>
+</a>
 
 <h2>Technologies</h2>
 
 <ul>
     <li>Python</li>
-    <li>Machine Learning Framework</li>
-    <li>Data Processing Tools</li>
+    <li>PyTorch and Transformer-based language models</li>
+    <li>Large Language Models (LLMs)</li>
+    <li>Active Learning</li>
 </ul>
-
-<br>
 
 <h2>Results</h2>
 
 <p>
-Summarize the findings, achieved performance,
-research impact, or important conclusions.
+The project demonstrated that language models can improve their performance
+through targeted adaptation at test time, reducing the need for expensive
+full-scale retraining. The proposed active fine-tuning approach enables models
+to focus computational resources on the most informative examples, improving
+the efficiency of adaptation.
 </p>
+
+<figure>
+    <img
+        src="../images/ttft/reesult.png"
+        alt="Project screenshot"
+        class="project-image"
+    >
+
+    <figcaption>
+        Performance improvement of our approach SIFT.
+    </figcaption>
+</figure>
+
+<figure>
+    <img
+        src="../images/ttft/example.png"
+        alt="Project screenshot"
+        class="project-image"
+    >
+
+    <figcaption>
+        Retrival example for SIFT and the state of the art method.
+    </figcaption>
+</figure>
 
 <br>
 
@@ -102,7 +143,7 @@ research impact, or important conclusions.
 </main>
 
 <footer>
-    <p>© 2026 Your Name</p>
+    <p>© 2026 Sascha Bongni</p>
 </footer>
 
 </body>
